@@ -1,0 +1,16 @@
+PODS:
+  - WuJiView (0.1.0)
+
+DEPENDENCIES:
+  - WuJiView (from `../`)
+
+EXTERNAL SOURCES:
+  WuJiView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WuJiView: f1888693ec7cd4cfd24d66b46ff33828f7d433bb
+
+PODFILE CHECKSUM: 9da543ba3edeb8117a70e0e96e88fc63118e6e44
+
+COCOAPODS: 1.9.2

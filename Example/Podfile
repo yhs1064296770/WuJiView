@@ -8,6 +8,6 @@ target 'WuJiView_Example' do
   target 'WuJiView_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+    
   end
 end
