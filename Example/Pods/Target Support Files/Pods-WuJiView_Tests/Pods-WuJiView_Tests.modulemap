@@ -1,0 +1,6 @@
+framework module Pods_WuJiView_Tests {
+  umbrella header "Pods-WuJiView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
