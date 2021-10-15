@@ -3,16 +3,27 @@
   "version": "0.1.0",
   "summary": "A short description of WuJiView.",
   "description": "TODO: Add long description of the pod here.",
+<<<<<<< HEAD
   "homepage": "https://github.com/yhs1064296770/WuJiView",
+=======
+  "homepage": "https://github.com/luhongyujob@163.com/WuJiView",
+>>>>>>> 87b85a54ebe4b7dce1d3f02ba3650af4d6d0e89e
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
+<<<<<<< HEAD
     "1064296770@qq.com": "1064296770@qq.com"
   },
   "source": {
     "git": "https://github.com/yhs1064296770/WuJiView.git",
+=======
+    "luhongyujob@163.com": "luhongyujob@163.com"
+  },
+  "source": {
+    "git": "https://github.com/luhongyujob@163.com/WuJiView.git",
+>>>>>>> 87b85a54ebe4b7dce1d3f02ba3650af4d6d0e89e
     "tag": "0.1.0"
   },
   "platforms": {

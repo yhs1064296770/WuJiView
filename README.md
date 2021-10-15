@@ -17,7 +17,12 @@ WuJiView is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'WuJiView'
+
+pod 'WuJiView',:git =>"https://github.com/yhs1064296770/WuJiView.git"
+
+如果遇到443问题:
+git config --global --add remote.origin.proxy ""
+
 ```
 
 ## Author

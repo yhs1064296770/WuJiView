@@ -9,7 +9,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+<<<<<<< HEAD
   WuJiView: 9350f9912b56b8fa495b9f8ff109169b0ddffad0
+=======
+  WuJiView: f1888693ec7cd4cfd24d66b46ff33828f7d433bb
+>>>>>>> 87b85a54ebe4b7dce1d3f02ba3650af4d6d0e89e
 
 PODFILE CHECKSUM: 9da543ba3edeb8117a70e0e96e88fc63118e6e44
 
