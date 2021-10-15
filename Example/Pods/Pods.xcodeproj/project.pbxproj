@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AD1D510B32D327B9232AEC29C7C4900 /* WuJiGalleryBaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B42DFF963A336AE0B31AC9391E3B21D8 /* WuJiGalleryBaseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		144D83F91E0A85F22B3158A1BB7FEF84 /* Pods-WuJiView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A38A9F066615FF0128384771DECE368 /* Pods-WuJiView_Example-dummy.m */; };
-		25D82511330D1B1FB7733AEF029E60A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2C54FF728ED6E824608FB19BC5D09257 /* WuJiView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B944D3CEBABDE8422A8744F1548E89F /* WuJiView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		326E3039012475A755AA17E953A4FD2F /* WuJiGalleryShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5727F9DD295A68A124C2506AC1804899 /* WuJiGalleryShowViewController.m */; };
 		3F6716F95B6DB1AF95A06574FCF2A2A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4BB99CFAB9282FE45C500F45325F9334 /* Pods-WuJiView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D838A20BCBB6A3DDFE2BD5CA7A5EAF75 /* Pods-WuJiView_Tests-dummy.m */; };
-		4DC02E33F900AAE63D6B5EB80357DE0C /* WuJiView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC59F6C5C0B4954D11958AD53CC05128 /* WuJiView-dummy.m */; };
-		5AD3261271C8A543E70108B15B1445C3 /* WuJiImageItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B79E62BE2966DA8D4A9A276EAE5F8554 /* WuJiImageItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B6C1FA3F3050262618576D426521CB3 /* Pods-WuJiView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F62E747D71D3D81578A4431852B79C04 /* Pods-WuJiView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8124CE91763980F833822B9CF7FBB5C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		88E0D56D2855091A324FD3AD5F029B84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		AC86534239D1AE63378C48FCEE33D941 /* WuJiImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AE41BCB43AEF870636E973B16F65AE97 /* WuJiImageItem.m */; };
+		A131841D1D31DB63EA38440170DFF46A /* WuJiGalleryALibrayObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 980779AB8940F13ED3424AC30E89ACDF /* WuJiGalleryALibrayObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE75B0CA2C5A01A3EA4DBB6C986EC67C /* WuJiGalleryALibrayObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6F85C20EBFFC51728AE6DD12B50D01 /* WuJiGalleryALibrayObject.m */; };
+		BF549944075428DAE365DC0FA626A9BE /* WuJiView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A584A54BDFD5998A5EED44199514424 /* WuJiView-dummy.m */; };
 		C3CE2C2F5234CFEDB98701BE0ACEB52B /* Pods-WuJiView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDCF3E3A59C8FC005F42DA5618A3544B /* Pods-WuJiView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D91B1F105D2A4D3061586020F620549D /* WuJiView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D55C763A6E8B92347C4376FB6DEB0759 /* WuJiView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6E030A6599F5BD2BBAFEAA49BD6C184 /* WuJiGalleryShowViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 45DD7F9C974C7B81C1A2214026975A83 /* WuJiGalleryShowViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6964259BF9AF5C0F39F7E3931457714 /* WuJiGalleryBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 432BB3C6783B674F321DBC8A6602C603 /* WuJiGalleryBaseObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,35 +43,39 @@
 
 /* Begin PBXFileReference section */
 		057DCE491BA057717E226D2E536FE29E /* WuJiView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WuJiView.framework; path = WuJiView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12F75940856F1A82EE9746295AEBE96A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		136F89041C20C7C858C60F481F92B9E6 /* Pods-WuJiView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WuJiView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		27C32D73080206F5CF5B5C5776D86E2F /* WuJiView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WuJiView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2CDE08A9C9124F6F966BA8250B9EC9DD /* WuJiView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WuJiView.modulemap; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34715456292F8BE4E923B6E95CAB8B6B /* Pods_WuJiView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WuJiView_Tests.framework; path = "Pods-WuJiView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A38A9F066615FF0128384771DECE368 /* Pods-WuJiView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WuJiView_Example-dummy.m"; sourceTree = "<group>"; };
 		3EDFB4CEFFBAF29D138524A8ABB7A206 /* Pods-WuJiView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WuJiView_Tests-Info.plist"; sourceTree = "<group>"; };
+		432BB3C6783B674F321DBC8A6602C603 /* WuJiGalleryBaseObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WuJiGalleryBaseObject.m; sourceTree = "<group>"; };
 		43CFD03E7F7246700B5B3E25DCEC21FE /* Pods-WuJiView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WuJiView_Example-Info.plist"; sourceTree = "<group>"; };
 		453B8A7F497364A43D1A6EA08DB08212 /* Pods-WuJiView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WuJiView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45DD7F9C974C7B81C1A2214026975A83 /* WuJiGalleryShowViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WuJiGalleryShowViewController.h; path = WuJiView/Classes/WuJiGalleryShowViewController.h; sourceTree = "<group>"; };
 		4713B43965394649C64DEA1BFBCA1751 /* Pods_WuJiView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WuJiView_Example.framework; path = "Pods-WuJiView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C2743E21B722CE96A49A7817D649508 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		577E62B45B31BB6526F8388C4E0AC132 /* WuJiView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WuJiView.debug.xcconfig; sourceTree = "<group>"; };
+		534CFE948A108027AEDD72D55FFB6F5E /* WuJiView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WuJiView.release.xcconfig; sourceTree = "<group>"; };
+		5727F9DD295A68A124C2506AC1804899 /* WuJiGalleryShowViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WuJiGalleryShowViewController.m; path = WuJiView/Classes/WuJiGalleryShowViewController.m; sourceTree = "<group>"; };
 		5832C13C7D02715DD316C0FE0C385D3B /* Pods-WuJiView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WuJiView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		606D663AE5A7170F47F9E069AA695B22 /* WuJiView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WuJiView.release.xcconfig; sourceTree = "<group>"; };
+		5A584A54BDFD5998A5EED44199514424 /* WuJiView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WuJiView-dummy.m"; sourceTree = "<group>"; };
 		69E65F27E59144EE152354302049E808 /* Pods-WuJiView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WuJiView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6B944D3CEBABDE8422A8744F1548E89F /* WuJiView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WuJiView-umbrella.h"; sourceTree = "<group>"; };
 		8FE46F6059F2CC0463CC0505C0FB1496 /* Pods-WuJiView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WuJiView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9775A7D4B3623F240F9D8057810FFF62 /* WuJiView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WuJiView-Info.plist"; sourceTree = "<group>"; };
+		92CCF6C6D54AD5D71BA80074581538FE /* WuJiView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WuJiView-Info.plist"; sourceTree = "<group>"; };
+		980779AB8940F13ED3424AC30E89ACDF /* WuJiGalleryALibrayObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WuJiGalleryALibrayObject.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F245552B34F4520541A9FDCBB11B606 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A0CA7D21F0ADC06786841F0811F053D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		AAE3E9AF928047BE45CAD9CFE7945688 /* Pods-WuJiView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WuJiView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AE41BCB43AEF870636E973B16F65AE97 /* WuJiImageItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WuJiImageItem.m; path = WuJiView/Classes/WuJiImageItem.m; sourceTree = "<group>"; };
+		B42DFF963A336AE0B31AC9391E3B21D8 /* WuJiGalleryBaseObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WuJiGalleryBaseObject.h; sourceTree = "<group>"; };
 		B7084EE309D30D980140F2624938829F /* Pods-WuJiView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WuJiView_Example.modulemap"; sourceTree = "<group>"; };
-		B79E62BE2966DA8D4A9A276EAE5F8554 /* WuJiImageItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WuJiImageItem.h; path = WuJiView/Classes/WuJiImageItem.h; sourceTree = "<group>"; };
-		BEB4DDAB511D328C82B827704999B36C /* WuJiView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WuJiView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD6F85C20EBFFC51728AE6DD12B50D01 /* WuJiGalleryALibrayObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WuJiGalleryALibrayObject.m; sourceTree = "<group>"; };
 		C8D686C46F50147109459B3ECE2521EC /* Pods-WuJiView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WuJiView_Tests.modulemap"; sourceTree = "<group>"; };
 		CCC8F046E857E376D7AFC7853A860CFB /* Pods-WuJiView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WuJiView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D55C763A6E8B92347C4376FB6DEB0759 /* WuJiView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WuJiView-umbrella.h"; sourceTree = "<group>"; };
 		D838A20BCBB6A3DDFE2BD5CA7A5EAF75 /* Pods-WuJiView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WuJiView_Tests-dummy.m"; sourceTree = "<group>"; };
-		E50D32E6F9B7AD7F2FC6AC9E8A214D08 /* WuJiView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WuJiView.modulemap; sourceTree = "<group>"; };
-		EB94FB2D7D15F99593FA6B937B971646 /* WuJiView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WuJiView-prefix.pch"; sourceTree = "<group>"; };
-		EC59F6C5C0B4954D11958AD53CC05128 /* WuJiView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WuJiView-dummy.m"; sourceTree = "<group>"; };
+		D9C7F3516E6917E6453D11813D2667F0 /* WuJiView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WuJiView.debug.xcconfig; sourceTree = "<group>"; };
+		DBE6E1BF3428215CF5FE1DA1C854DFDA /* WuJiView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WuJiView-prefix.pch"; sourceTree = "<group>"; };
 		F41816A1FF64BBC3CFF8450AE9D66EC9 /* Pods-WuJiView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WuJiView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F62E747D71D3D81578A4431852B79C04 /* Pods-WuJiView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WuJiView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FD9683C5AFE1CD1E81B5D25EA90EF12D /* Pods-WuJiView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WuJiView_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -75,14 +83,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		216E5BF050D501B5429D3790866853FC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				25D82511330D1B1FB7733AEF029E60A0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8BDD314277B06E6B8C0653E2C2E64D9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,9 +99,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AAF3D63012A19658D937D34BF1CB9DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8124CE91763980F833822B9CF7FBB5C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BEC27D68889A73F1B565E08B5D9C8A6 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				B42DFF963A336AE0B31AC9391E3B21D8 /* WuJiGalleryBaseObject.h */,
+				432BB3C6783B674F321DBC8A6602C603 /* WuJiGalleryBaseObject.m */,
+				5C73FC8E800889A52C52502D08ACAB02 /* Kind */,
+			);
+			name = Gallery;
+			path = WuJiView/Classes/Gallery;
+			sourceTree = "<group>";
+		};
+		3D7209272F8B46D7D7ADF6434738B000 /* WuJiView */ = {
+			isa = PBXGroup;
+			children = (
+				45DD7F9C974C7B81C1A2214026975A83 /* WuJiGalleryShowViewController.h */,
+				5727F9DD295A68A124C2506AC1804899 /* WuJiGalleryShowViewController.m */,
+				1BEC27D68889A73F1B565E08B5D9C8A6 /* Gallery */,
+				6E40D7C18AB720EF6B2302364613B120 /* Pod */,
+				B7253551D5B0FB1D3A86F21370FD18EB /* Support Files */,
+			);
+			name = WuJiView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		53303D83F7E57AB50B28B637FDF8EBD3 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +141,26 @@
 				7E7B773E07834C12400C070C7EB69804 /* Pods-WuJiView_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5C73FC8E800889A52C52502D08ACAB02 /* Kind */ = {
+			isa = PBXGroup;
+			children = (
+				980779AB8940F13ED3424AC30E89ACDF /* WuJiGalleryALibrayObject.h */,
+				BD6F85C20EBFFC51728AE6DD12B50D01 /* WuJiGalleryALibrayObject.m */,
+			);
+			name = Kind;
+			path = Kind;
+			sourceTree = "<group>";
+		};
+		6E40D7C18AB720EF6B2302364613B120 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				12F75940856F1A82EE9746295AEBE96A /* LICENSE */,
+				A0CA7D21F0ADC06786841F0811F053D8 /* README.md */,
+				27C32D73080206F5CF5B5C5776D86E2F /* WuJiView.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7E7B773E07834C12400C070C7EB69804 /* Pods-WuJiView_Tests */ = {
@@ -127,6 +179,14 @@
 			path = "Target Support Files/Pods-WuJiView_Tests";
 			sourceTree = "<group>";
 		};
+		8F6074714DCE349F1F0BAA7FE45084BF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D7209272F8B46D7D7ADF6434738B000 /* WuJiView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		8FEAC2498A7CEF016F501E17CF1F952F /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,27 +197,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C3AD2E063CF6C14A383D288C0BA2021 /* Support Files */ = {
+		B7253551D5B0FB1D3A86F21370FD18EB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E50D32E6F9B7AD7F2FC6AC9E8A214D08 /* WuJiView.modulemap */,
-				EC59F6C5C0B4954D11958AD53CC05128 /* WuJiView-dummy.m */,
-				9775A7D4B3623F240F9D8057810FFF62 /* WuJiView-Info.plist */,
-				EB94FB2D7D15F99593FA6B937B971646 /* WuJiView-prefix.pch */,
-				D55C763A6E8B92347C4376FB6DEB0759 /* WuJiView-umbrella.h */,
-				577E62B45B31BB6526F8388C4E0AC132 /* WuJiView.debug.xcconfig */,
-				606D663AE5A7170F47F9E069AA695B22 /* WuJiView.release.xcconfig */,
+				2CDE08A9C9124F6F966BA8250B9EC9DD /* WuJiView.modulemap */,
+				5A584A54BDFD5998A5EED44199514424 /* WuJiView-dummy.m */,
+				92CCF6C6D54AD5D71BA80074581538FE /* WuJiView-Info.plist */,
+				DBE6E1BF3428215CF5FE1DA1C854DFDA /* WuJiView-prefix.pch */,
+				6B944D3CEBABDE8422A8744F1548E89F /* WuJiView-umbrella.h */,
+				D9C7F3516E6917E6453D11813D2667F0 /* WuJiView.debug.xcconfig */,
+				534CFE948A108027AEDD72D55FFB6F5E /* WuJiView.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/WuJiView";
-			sourceTree = "<group>";
-		};
-		B21CCC7BA0784150BD90B8F9ED2E9603 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F52516E3080D594C72C4BD92B056EE49 /* WuJiView */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -172,7 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B21CCC7BA0784150BD90B8F9ED2E9603 /* Development Pods */,
+				8F6074714DCE349F1F0BAA7FE45084BF /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				8FEAC2498A7CEF016F501E17CF1F952F /* Products */,
 				53303D83F7E57AB50B28B637FDF8EBD3 /* Targets Support Files */,
@@ -185,18 +237,6 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F52516E3080D594C72C4BD92B056EE49 /* WuJiView */ = {
-			isa = PBXGroup;
-			children = (
-				B79E62BE2966DA8D4A9A276EAE5F8554 /* WuJiImageItem.h */,
-				AE41BCB43AEF870636E973B16F65AE97 /* WuJiImageItem.m */,
-				FA681B57263F5AAB452E463B9BF0CE4A /* Pod */,
-				9C3AD2E063CF6C14A383D288C0BA2021 /* Support Files */,
-			);
-			name = WuJiView;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		F593747C6FD6E453D3F5FAC5A997A127 /* Pods-WuJiView_Example */ = {
@@ -214,16 +254,6 @@
 			);
 			name = "Pods-WuJiView_Example";
 			path = "Target Support Files/Pods-WuJiView_Example";
-			sourceTree = "<group>";
-		};
-		FA681B57263F5AAB452E463B9BF0CE4A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4C2743E21B722CE96A49A7817D649508 /* LICENSE */,
-				9F245552B34F4520541A9FDCBB11B606 /* README.md */,
-				BEB4DDAB511D328C82B827704999B36C /* WuJiView.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,12 +275,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DF27061B9313812ECADDB02BCA6482D /* Headers */ = {
+		575DF680206713118442F5567CECDA8E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AD3261271C8A543E70108B15B1445C3 /* WuJiImageItem.h in Headers */,
-				D91B1F105D2A4D3061586020F620549D /* WuJiView-umbrella.h in Headers */,
+				A131841D1D31DB63EA38440170DFF46A /* WuJiGalleryALibrayObject.h in Headers */,
+				0AD1D510B32D327B9232AEC29C7C4900 /* WuJiGalleryBaseObject.h in Headers */,
+				C6E030A6599F5BD2BBAFEAA49BD6C184 /* WuJiGalleryShowViewController.h in Headers */,
+				2C54FF728ED6E824608FB19BC5D09257 /* WuJiView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +329,12 @@
 		};
 		C1B74D9DEA5916004B34AD9386BD28E6 /* WuJiView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73ECD4AA7F3979FC54651D07B551EB00 /* Build configuration list for PBXNativeTarget "WuJiView" */;
+			buildConfigurationList = 591337C5A8B460576456EFA41EF114CF /* Build configuration list for PBXNativeTarget "WuJiView" */;
 			buildPhases = (
-				9DF27061B9313812ECADDB02BCA6482D /* Headers */,
-				BB1A509425B3B66CBAD63DBE557E0AB8 /* Sources */,
-				216E5BF050D501B5429D3790866853FC /* Frameworks */,
-				A162D197620CD7FA8451FF228002F680 /* Resources */,
+				575DF680206713118442F5567CECDA8E /* Headers */,
+				88CBE52C55F64296FBAD0849F8DC83EA /* Sources */,
+				AAF3D63012A19658D937D34BF1CB9DF2 /* Frameworks */,
+				F0C5E69002EB68F56E6703E7E83BED75 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -350,14 +382,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A162D197620CD7FA8451FF228002F680 /* Resources */ = {
+		AE0D74187A3F5A990C3B9CAA06696C8B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE0D74187A3F5A990C3B9CAA06696C8B /* Resources */ = {
+		F0C5E69002EB68F56E6703E7E83BED75 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -383,12 +415,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB1A509425B3B66CBAD63DBE557E0AB8 /* Sources */ = {
+		88CBE52C55F64296FBAD0849F8DC83EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC86534239D1AE63378C48FCEE33D941 /* WuJiImageItem.m in Sources */,
-				4DC02E33F900AAE63D6B5EB80357DE0C /* WuJiView-dummy.m in Sources */,
+				AE75B0CA2C5A01A3EA4DBB6C986EC67C /* WuJiGalleryALibrayObject.m in Sources */,
+				D6964259BF9AF5C0F39F7E3931457714 /* WuJiGalleryBaseObject.m in Sources */,
+				326E3039012475A755AA17E953A4FD2F /* WuJiGalleryShowViewController.m in Sources */,
+				BF549944075428DAE365DC0FA626A9BE /* WuJiView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,69 +444,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10FE7AF48FA9F906BC773D90F1296750 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 606D663AE5A7170F47F9E069AA695B22 /* WuJiView.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WuJiView/WuJiView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WuJiView/WuJiView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WuJiView/WuJiView.modulemap";
-				PRODUCT_MODULE_NAME = WuJiView;
-				PRODUCT_NAME = WuJiView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3755BD5CF55FCA5E864073BA4BF3EC7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 577E62B45B31BB6526F8388C4E0AC132 /* WuJiView.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WuJiView/WuJiView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WuJiView/WuJiView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WuJiView/WuJiView.modulemap";
-				PRODUCT_MODULE_NAME = WuJiView;
-				PRODUCT_NAME = WuJiView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -594,6 +565,37 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A3AE0334402628ACEB6A225F63F4D61E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C7F3516E6917E6453D11813D2667F0 /* WuJiView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WuJiView/WuJiView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WuJiView/WuJiView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WuJiView/WuJiView.modulemap";
+				PRODUCT_MODULE_NAME = WuJiView;
+				PRODUCT_NAME = WuJiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -731,6 +733,38 @@
 			};
 			name = Release;
 		};
+		FE03E1849DA34D32C4A080AAB7AD811D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 534CFE948A108027AEDD72D55FFB6F5E /* WuJiView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WuJiView/WuJiView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WuJiView/WuJiView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WuJiView/WuJiView.modulemap";
+				PRODUCT_MODULE_NAME = WuJiView;
+				PRODUCT_NAME = WuJiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -752,11 +786,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73ECD4AA7F3979FC54651D07B551EB00 /* Build configuration list for PBXNativeTarget "WuJiView" */ = {
+		591337C5A8B460576456EFA41EF114CF /* Build configuration list for PBXNativeTarget "WuJiView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3755BD5CF55FCA5E864073BA4BF3EC7C /* Debug */,
-				10FE7AF48FA9F906BC773D90F1296750 /* Release */,
+				A3AE0334402628ACEB6A225F63F4D61E /* Debug */,
+				FE03E1849DA34D32C4A080AAB7AD811D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

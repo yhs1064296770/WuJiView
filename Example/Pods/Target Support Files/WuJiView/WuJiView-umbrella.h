@@ -10,7 +10,9 @@
 #endif
 #endif
 
-#import "WuJiImageItem.h"
+#import "WuJiGalleryALibrayObject.h"
+#import "WuJiGalleryBaseObject.h"
+#import "WuJiGalleryShowViewController.h"
 
 FOUNDATION_EXPORT double WuJiViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char WuJiViewVersionString[];
