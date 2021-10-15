@@ -27,7 +27,7 @@ git config --global --add remote.origin.proxy ""
 
 ## Author
 
-luhongyujob@163.com, luhongyujob@163.com
+程序姚, 1064296770@qq.com
 
 ## License
 
